@@ -1,0 +1,35 @@
+body{
+    background:url(../imagenes/retoqueFondo.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color:rgba(255,255,255,1);
+    font-size: 20px;
+}
+
+table{
+    display: block;
+    width:fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+
+#botones{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background: none;
+}
+
+h1{
+    text-align: center;
+}
+
+hr{
+    opacity: 0.5;
+}

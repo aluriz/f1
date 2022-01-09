@@ -1,0 +1,84 @@
+body{
+    background:url(../imagenes/fondoContacta.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px white;
+
+}
+
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+input[type="checkbox"],input[type="radio"]{
+    width: auto;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin-bottom: 0;
+    background: grey;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background: transparent;
+    color: blue;
+    cursor:pointer;
+}
+
+.centro{
+    text-align: center;
+}
+
+#navegador{
+    list-style-type: none;
+    margin:auto;
+    padding: auto;
+}
+
+#navegador li{
+    margin: 10px;
+    padding: auto;
+}
+
+#navegador li a{
+    display: block;
+    width:auto;
+    text-decoration:none;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+#navegador li a:hover{
+    color:blue;
+}
