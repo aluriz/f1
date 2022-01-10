@@ -66,11 +66,7 @@ table{
     background-color:grey;
 }
 
-#pilotos table {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
+
 
 #pilotos tr td a{
     color:#fff;
