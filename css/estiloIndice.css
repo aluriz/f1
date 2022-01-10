@@ -67,7 +67,7 @@ table{
     background-color:grey;
 }
 
-#pilotos table tr{
+#pilotos table {
     display:block;
     margin-left:auto;
     margin-right:auto;
