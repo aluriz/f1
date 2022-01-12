@@ -1,0 +1,83 @@
+body{
+    background:url(../imagenes/fondoPrueba.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+}
+
+.centro{
+    text-align: center;
+}
+
+
+table{
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;   
+    text-align: center;
+    background:url(../imagenes/fondoTabla.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid white;
+    
+}
+
+#f1logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid 1px white;
+    
+}
+
+
+#navi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navi li{
+    margin: 2px;
+    margin-left: auto;
+    padding: 2px;
+    border: 1px solid#000;
+    float: right;
+}
+
+#navi li a{
+    display: block;
+    width: 100px;
+    padding: 4px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+#navi li a:hover{
+    color:yellow;
+    background-color:grey;
+}
+
+#pilotos tr td a{
+    color:#fff;
+}
+
+#pilotos tr td a:hover{
+    color:yellow;
+    background-color: transparent;
+}
+
+hr{
+    opacity: 0.25;
+}
